@@ -1,0 +1,278 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.medsos{
+	padding: 10px 0;
+	background-color: #17B55B;
+}
+.medsos ul li{
+	display: inline-block;
+	color: #fff;
+	margin-right: 10px;
+}
+.container{
+	width: 80%;
+	margin: 0 auto;
+}
+.container:after{
+	content: " ";
+	display: block;
+	clear: both;
+}
+header{
+
+}
+header h1{
+	float: left;
+	padding: 15px 0;
+	color: #17B55B;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	display: inline-block;
+}
+header ul li a{
+	padding: 25px 20px;
+	display: inline-block;
+}
+header ul li a:hover{
+	background-color: #17B55B;
+	color: #fff;
+}
+.active{
+	background-color: #17B55B;
+	color: #fff;
+}
+.banner{
+	height: 60vh;
+	background-image: url(../img/1.png);
+	backgrund-size: cover;
+	position: relative;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.banner:after{
+	content: " ";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(23, 181, 91, .5);
+}
+.banner h2{
+	color: #fff;
+	font-size: 50px;
+	z-index: 1;
+	padding: 20px 25px;
+	border: 4px solid #fff;
+}
+section{
+	padding: 60px 0;
+}
+/*about*/
+section{
+	padding: 50px 0;
+}
+section h3{
+	text-align: center;
+	padding: 30px 0;
+	color: #17B55B;
+	margin-bottom: 20px;
+}
+.about{
+	padding-bottom: 100px;
+}
+.about p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 20px;
+	font-size: 20px;
+}
+section h4{
+	text-align: center;
+	padding: 30px 0;
+	color: #17B55B;
+	margin-bottom: 20px;
+}
+.about p{
+	color: #666;
+	word-spacing: 2px;
+	line-height: 20px;
+	font-size: 20px;
+}
+footer{
+	padding: 20px 0;
+	background-color: #17B55B;
+	color: #fff;
+	text-align: center;
+}
+.label{
+	padding: 20px 0;
+	background-color: #17B55B;
+	color: #fff;
+}
+/*contact*/
+section h5{
+	font-size: 24px;
+	text-align: center;
+	padding: 30px 0;
+	color: #17B55B;
+	margin-bottom: 20px;
+}
+.contact{
+	padding-bottom: 100px;
+}
+.contact p{
+	text-align: center;
+}
+.col-4{
+	width: 21%;
+	padding: 20px;
+	float: left;
+}
+.col-4 h6{
+	font-size: 20px;
+	margin: 20px 0;
+	color: #17B55B;
+	text-align: center;
+}
+
+/*--product*/
+.gambar{
+	width: 80%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	padding: 10px;
+	padding-bottom: 100px;
+}
+.gambar .foto img{
+	width: 300px;
+}
+.foto{
+	border: 2px solid green;
+	margin: 2px;
+	text-align: center;
+}
+.foto a{
+	border: 1px solid rgb(23, 181, 91);
+	padding: 1px;
+	color: #fff;
+	background-color: #17B55B;
+	text-decoration: none;
+	border-radius: 20px;
+	cursor: pointer;
+}
+.foto p{
+	font-size: 10px;
+	padding-bottom: 10px;
+}
+
+/* produk 1 */
+#detailproduk1{
+	padding: 10px;
+	background-color: rgb(66, 223, 134);
+	margin: 10px;
+}
+#detailproduk1,ul li{
+	text-align: left;
+	word-spacing: 2px;
+}
+/* produk 2 */
+#detailproduk2{
+	padding: 10px;
+	background-color: rgb(66, 223, 134);
+	margin: 10px;
+}
+#detailproduk2,ul li{
+	text-align: left;
+	word-spacing: 2px;
+}
+/* produk 3 */
+#detailproduk3{
+	padding: 10px;
+	background-color: rgb(66, 223, 134);
+	margin: 10px;
+}
+#detailproduk3,ul li{
+	text-align: left;
+	word-spacing: 2px;
+}
+/* produk 4 */
+#detailproduk4{
+	padding: 10px;
+	background-color: rgb(66, 223, 134);
+	margin: 10px;
+}
+#detailproduk4,ul li{
+	text-align: left;
+	word-spacing: 2px;
+}
+/* produk 5 */
+#detailproduk5{
+	padding: 10px;
+	background-color: rgb(66, 223, 134);
+	margin: 10px;
+}
+#detailproduk5,ul li{
+	text-align: left;
+	word-spacing: 2px;
+}
+/* produk 6 */
+#detailproduk6{
+	padding: 10px;
+	background-color: rgb(66, 223, 134);
+	margin: 10px;
+}
+#detailproduk6,ul li{
+	text-align: left;
+	word-spacing: 2px;
+}
+/* produk 7 */
+#detailproduk7{
+	padding: 10px;
+	background-color: rgb(66, 223, 134);
+	margin: 10px;
+}
+#detailproduk7,ul li{
+	text-align: left;
+	word-spacing: 2px;
+}
+/* produk 8 */
+#detailproduk8{
+	padding: 10px;
+	background-color: rgb(66, 223, 134);
+	margin: 10px;
+}
+#detailproduk8,ul li{
+	text-align: left;
+	word-spacing: 2px;
+}
+/* produk 9 */
+#detailproduk9{
+	padding: 10px;
+	background-color: rgb(66, 223, 134);
+	margin: 10px;
+}
+#detailproduk9,ul li{
+	text-align: left;
+	word-spacing: 2px;
+}
+.paragraf{
+	padding: 20px 2;
+	background-color: #666;
+	text-align: center;
+	font-size: 24px;
+	word-spacing: 2px;
+}
